@@ -1,0 +1,47 @@
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  .blue {
+    background-color: rgb(0, 21, 254)
+  }
+  
+  .black {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .red {
+    background-color: rgb(196, 5, 5);
+  }
+  
+  .green {
+    background-color: rgb(5, 156, 35);
+  }
+
+  .square.blue {
+    order: 4;
+  }
+  
+  .square.black {
+    order: 3;
+  }
+  
+  .square.red {
+    order: 2;
+  }
+  
+  .square.green {
+    order: 1;
+  }
